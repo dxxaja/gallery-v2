@@ -25,7 +25,7 @@
 
     <body style="background-color: #eeebcc">
         <div id="app">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #7AA2E3">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #7AA2E3">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/albums">DX Memory's gallery ♈|</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
