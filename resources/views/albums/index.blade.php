@@ -3,8 +3,8 @@
 @section('content')
 
 <div class="container">
-    <h1 class="text-center container">
-        <strong>My Memory</strong>
+    <h1 class="text-center container" style="color: #98ABEE">
+        MY Memories
     </h1>
     <section class="py-5 text-center container">
         <div class="d-grid gap-2 col-6 mx-auto">
@@ -16,7 +16,7 @@
         @foreach ($albums as $album)
         <div class="col">
             <div class="shadow">
-                <div class="card">
+                <div class="card" style="background-color: #F9E8C9">
                     <img src="/storage/album_covers/{{$album->cover_image}}" height="200px" class="card-img-top" alt="Album Image">
                     <div class="card-body">
                         <h5 class="card-title">{{$album->name}}</h5>
